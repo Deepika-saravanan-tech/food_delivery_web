@@ -290,6 +290,11 @@
   font-family: "Roboto";
   font-size: 14px;
   font-weight: 500;
+  border-style: solid;
+  padding: 5px;
+  border-color: #d0b200;
+  border-radius: 5px;
+
 }
 .sub_menu-item-card {
   border-radius: 16px;
@@ -429,4 +434,61 @@ img:hover {
 /* Automatically show whichever section is targeted */
 .sub_explore-menu-section:target {
   display: block;
+}
+/* Video Page Body */
+.video-body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f8f9fa;
+}
+
+/* Video Section Heading */
+.video-heading {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #198754; /* Bootstrap green */
+}
+
+/* Video Box */
+.video-box {
+  border: 3px solid #198754;
+}
+
+/* Trust Section */
+.video-trust {
+  margin-top: 20px;
+}
+
+.video-trust-title {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: #198754;
+}
+
+.video-trust-list {
+  padding-left: 20px;
+  font-size: 16px;
+  list-style-type: none;
+}
+
+.video-trust-list li::before {
+  content: "✔ ";
+  color: #28a745;
+  font-weight: bold;
+}
+
+.video-trust-list li {
+  margin-bottom: 8px;
+}
+
+.video-trust-desc {
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+/* Back Button */
+.video-btn-back {
+  font-size: 16px;
+  padding: 10px 20px;
 }
